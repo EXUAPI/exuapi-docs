@@ -440,6 +440,7 @@ To stop receiving data from a channel you have to send a "unsubscribe" message.
     * **id**: [string] client genrate unique id, used to differentiate requests.
     * **type**: [string] "sub"
     * **data**: [string] see as follows
+    * **channelNames**: [string] kline's channelNames contains: kline.1m, kline.5m, kline.15m, kline.30m, kline.1h, kline.1d
         ```
             {
                 "id": "1",      
